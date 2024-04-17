@@ -75,6 +75,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-list {
@@ -87,12 +89,26 @@ body {
 }
 
 .project-i-link {
-    color: #005FFF;
+    color: #6D9BF5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.project-i-desc {
+    margin-top: 10px;
+    color: #595959;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
+    line-height: 20px;
+    width: 525px;
+}
+
+.project-i-role {
+    color: #ed7e1d;
 }
 
 /* Work experience */
