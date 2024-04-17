@@ -17,20 +17,9 @@ body {
 /* Main content */
 
 .main-content {
-    padding-top: 88px;
-    padding-bottom: 88px;
-    padding-left: 88px;
-    padding-right: 88px;
+    padding: 70px;
+    padding-bottom: 50px;
     width: 100%;
-
-    /* OR по часовой стрелке */
-
-    padding: 88px 88px 88px 88px;
-
-    /* OR 1 раз ко всем сторонам */
-
-    padding: 88px;
-
 }
 
 /* About me */
@@ -213,7 +202,6 @@ body {
 
 .sidebar {
     width: 370px;
-    height: 1590px;
     flex-shrink: 0;
     background: #E0EBFE;
 }
@@ -293,7 +281,7 @@ body {
 }
 
 .lang-container {
-    margin: 48px 0 0 40px; 
+    margin: 48px 0 0 40px;
 }
 
 .lang-list {
