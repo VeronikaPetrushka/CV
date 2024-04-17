@@ -269,36 +269,26 @@ body {
     font-weight: 700;
     line-height: 27px;
     color: #161D2A;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
-.contacts-type {
-    color: #161D2A;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
+.socials {
+    stroke: #595959;
+    fill: #595959;
+    margin-right: 10px;
 }
 
 .contacts-item {
     margin: 0;
+    margin-top: 5px;
 }
 
-.contacts-number {
+.contacts {
     color: #161D2A;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-}
-
-.contacts-email {
-    color: #2979FF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    text-decoration-line: underline;
 }
 
 /* Skills */
