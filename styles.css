@@ -88,6 +88,11 @@ body {
     margin-bottom: 48px;
 }
 
+.project-i-l-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .project-i-link {
     color: #6D9BF5;
     font-size: 14px;
@@ -95,6 +100,17 @@ body {
     font-weight: 550;
     line-height: 24px;
     text-decoration-line: underline;
+    padding: 10px;
+}
+
+.git-icon-i {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.project-i-git {
+    stroke: #595959;
+    fill: #595959;
 }
 
 .project-i-desc {
