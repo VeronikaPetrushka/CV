@@ -1,7 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;
-    padding: 40px;
+    width: 100%;
+}
+
+p {
+    width: 750px;
+}
+
+li {
+    width: 750px;
 }
 
 .wrapper {
@@ -9,9 +17,9 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background: #ffffff;
-    width: 1200px;
+    /* width: 1200px;
     margin: 0 auto;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 
 /* Main content */
@@ -51,7 +59,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 525px;
 }
 
 .about-me-container {
@@ -120,7 +127,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    width: 525px;
 }
 
 .project-i-role {
@@ -173,12 +179,17 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    width: 509px;
     margin: 0;
     padding: 0 0 0 16px;
 }
 
 /* Education */
+
+.educ-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 .uni {
     color: #6D9BF5;
@@ -205,29 +216,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 15px;
-    margin: 12px 0 107px 0;
-}
-
-.language {
-    color: #ed7e1d;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 509px;
-    margin: 0;
-    padding: 0 0 0 16px;
-}
-
-.language-educ {
-    color: #ed7e1d;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    width: 509px;
-    margin-left: -24px;
-    margin-top: -95px;
+    margin: 12px 0;
 }
 
 /* Sidebar */
@@ -281,6 +270,11 @@ body {
 .contacts-item {
     margin: 0;
     margin-top: 5px;
+}
+
+.location {
+    font-size: 14px;
+    color: #161D2A;
 }
 
 .contacts {
