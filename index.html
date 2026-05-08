@@ -129,48 +129,48 @@
       align-items:center;
     }
     .avatar{
-      width: 160px; 
-      height:160px; 
-      border-radius: 20px; 
-      overflow: hidden; 
+      width: 160px;
+      height:160px;
+      border-radius: 20px;
+      overflow: hidden;
       border:2px solid #6b38cc;
       box-shadow: 0 10px 30px rgba(139,92,246,.35);
       justify-self: center;
     }
-    .avatar img{ 
-      width:100%; 
-      height:100%; 
-      object-fit:cover; 
+    .avatar img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
     }
     .hero-content {
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
-    .hero h1{ 
-      margin:0; 
+    .hero h1{
+      margin:0;
       font-size: clamp(26px, 3.4vw, 40px);
       line-height: 1.2;
     }
-    .hero h2{ 
-      margin:0; 
-      font-size: clamp(16px, 1.8vw, 20px); 
-      color:var(--accent-2); 
+    .hero h2{
+      margin:0;
+      font-size: clamp(16px, 1.8vw, 20px);
+      color:var(--accent-2);
       font-weight:600;
     }
 
-    .chips{ 
-      display:flex; 
-      flex-wrap:wrap; 
-      gap:8px; 
+    .chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
       margin-top:12px;
     }
-    .chip{ 
-      padding:8px 14px; 
-      border-radius:999px; 
-      background: var(--chip-bg); 
-      border:1px solid var(--line); 
-      font-size:13.5px; 
+    .chip{
+      padding:8px 14px;
+      border-radius:999px;
+      background: var(--chip-bg);
+      border:1px solid var(--line);
+      font-size:13.5px;
       color:var(--muted);
       transition: all 0.2s ease;
     }
@@ -460,15 +460,15 @@
     
     /* 640px Breakpoint (Small tablets) */
     @media (max-width: 640px){
-      .hero{ 
+      .hero{
         grid-template-columns: 1fr;
         text-align: center;
         gap: 20px;
       }
       
-      .avatar{ 
-        width: 180px; 
-        height: 180px; 
+      .avatar{
+        width: 180px;
+        height: 180px;
         border-radius: 18px;
         justify-self: center;
       }
@@ -584,7 +584,7 @@
   <header class="header">
     <div class="header-inner">
       <div class="name">Veronika Petrushka</div>
-      <div class="badge">Fullstack & Mobile Developer · Data Science (Hons)</div>
+      <div class="badge">iOS Engineer · Data Science (Hons)</div>
     </div>
   </header>
 
@@ -598,15 +598,15 @@
           <img src="./image//cover.jpeg" alt="Veronika Petrushka" />
         </div>
         <div class="hero-content">
-          <h1>Fullstack & Mobile Developer</h1>
-          <h2>Junior Software Engineer · Junior Data Analyst</h2>
+          <h1>iOS Engineer</h1>
+          <h2>Mobile Developer · Junior Data Analyst</h2>
           <p class="intro">
-            Data Science Graduate (BSc with Honours) with 1 year of professional experience as a Junior Software Engineer. 
-            Built and published 80+ iOS and ~20 Android apps end‑to‑end: concept, UI/UX, APIs, performance, 
-            deployments. Strong analytical mindset and practical DB knowledge (Python/SQL/PHP).
+          Data Science graduate (BSc with Honours) and iOS Engineer with nearly 2 years of experience delivering high-impact mobile applications in competitive global markets. Contributed to and delivered 80+ iOS and ~20 Android apps end‑to‑end: concept, UI/UX, APIs, performance, deployments; including large-scale iOS products used by millions of users, focusing on feature development, performance optimization, and analytics-driven improvements. Combines strong engineering fundamentals with a data-driven mindset and practical experience in Python, SQL, and PHP.
           </p>
           <div class="chips" aria-label="Core skills">
             <span class="chip">React Native</span>
+            <span class="chip">SwiftUI</span>
+            <span class="chip">TCA</span>
             <span class="chip">TypeScript</span>
             <span class="chip">JavaScript</span>
             <span class="chip">React</span>
@@ -628,21 +628,26 @@
           <article class="project">
             <div class="top">
               <a href="https://github.com/VeronikaPetrushka?tab=repositories" target="_blank" rel="noreferrer">Mobile App Portfolio</a>
-              <span class="role">Role: Junior Software Developer</span>
+              <span class="role">Role: iOS & Mobile Developer</span>
             </div>
             <p>
-              Developed and published 100+ mobile applications (80+ iOS, 20+ Android) using React Native, TypeScript, and JavaScript. Projects ranged from loyalty apps and educational tools to entertainment and industry-specific solutions.
+              Developed and contributed to 100+ mobile applications, including large-scale production apps with millions of users, such as Notee.
             </p>
             <p>
-                Responsibilities included UI/UX design, API integration, performance optimization, and full lifecycle management from prototyping to App Store/Google Play release.
+              Worked on high-load iOS utility products competing in the global App Store market, delivering production-ready features, experiments, and optimizations in real-world environments.
+            </p>
+            <p>
+              Focused on performance, scalability, user experience, analytics-driven improvements, and product thinking to enhance engagement and retention.
             </p>
             <div class="tech-tags">
               <span class="tech-tag">React Native</span>
+              <span class="tech-tag">SwiftUI</span>
               <span class="tech-tag">TypeScript</span>
               <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">iOS</span>
+              <span class="tech-tag">iOS Development</span>
               <span class="tech-tag">Android</span>
               <span class="tech-tag">UI/UX Design</span>
+              <span class="tech-tag">Product Analytics</span>
             </div>
           </article>
         </div>
@@ -655,8 +660,35 @@
         <h3 class="title"><span class="dot"></span><i class="fas fa-briefcase"></i>Work Experience</h3>
         <div class="work">
           <article class="job">
+            <h4>iOS Engineer · <span class="company">Guru Apps | Universe Group (Full-time)</span></h4>
+            <div class="period">Nov 2025 – May 8, 2026 · 6 month · <span class="place">Poland · Remote</span></div>
+            <ul class="list">
+              <li>Collaborated in a focused team of 2 iOS engineers on the Notee app, delivering high-impact features in a fast-paced environment.</li>
+              <li>Developed and shipped new product features for a large-scale application used by millions of users in the global iOS utilities market.</li>
+              <li>Contributed to fast release cycles, ensuring reliable and efficient code delivery.</li>
+              <li>Identified and resolved critical production bugs, improving app stability and overall user experience.</li>
+              <li>Quickly adapted to a new iOS stack, accelerating development speed and impact.</li>
+              <li>Implemented Live Activities and Widgets, increasing user engagement and platform integration.</li>
+              <li>Maintained high standards of code quality, performance, and app size optimization.</li>
+              <li>Ensured high-quality user experience, aligning technical solutions with product expectations.</li>
+              <li>Analyzed analytics fluctuations and user behavior, performing deep investigations using Amplitude and internal dashboards.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">SwiftUI</span>
+              <span class="tech-tag">TCA</span>
+              <span class="tech-tag">Xcode</span>
+              <span class="tech-tag">Amplitude</span>
+              <span class="tech-tag">Sentry</span>
+              <span class="tech-tag">A/B Testing</span>
+              <span class="tech-tag">CAPI</span>
+              <span class="tech-tag">SKAN / SKAdNetwork</span>
+              <span class="tech-tag">AppsFlyer</span>
+            </div>
+          </article>
+
+          <article class="job">
             <h4>Junior Software Engineer Mobile · <span class="company">UPSTARS (Full‑time)</span></h4>
-            <div class="period">Jan 2025 – Jul 2025 · 7 mos · <span class="place">Poland · Hybrid</span></div>
+            <div class="period">Jan 2025 – Jul 2025 · 7 months · <span class="place">Poland · Hybrid</span></div>
             <ul class="list">
               <li>Built and launched various apps optimizing performance and approvals (App Store/Google Play).</li>
               <li>Advanced UI/UX, React Native libraries, and tooling: Xcode, Android Studio, GitHub.</li>
@@ -673,7 +705,7 @@
 
           <article class="job">
             <h4>Junior Software Engineer Mobile · <span class="company">Freelance | Self‑Employed</span></h4>
-            <div class="period">Sep 2024 – Jan 2025 · 5 mos · <span class="place">Poland · Remote</span></div>
+            <div class="period">Sep 2024 – Jan 2025 · 5 months · <span class="place">Poland · Remote</span></div>
             <ul class="list">
               <li>Designed, developed, and deployed custom iOS apps end‑to‑end based on technical tasks.</li>
               <li>Created unique UI/UX and integrated tailored features to meet project goals.</li>
@@ -701,8 +733,18 @@
             
             <div class="skill-item">
               <div class="skill-name">
+                <span>SwiftUI</span>
+                <span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 65%;"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-name">
                 <span>React Native</span>
-                <span>90%</span>
+                <span>80%</span>
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 90%;"></div>
@@ -712,7 +754,7 @@
             <div class="skill-item">
               <div class="skill-name">
                 <span>JavaScript</span>
-                <span>85%</span>
+                <span>80%</span>
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 85%;"></div>
@@ -732,7 +774,7 @@
             <div class="skill-item">
               <div class="skill-name">
                 <span>TypeScript</span>
-                <span>70%</span>
+                <span>60%</span>
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 70%;"></div>
@@ -742,7 +784,7 @@
             <div class="skill-item">
               <div class="skill-name">
                 <span>REST API</span>
-                <span>70%</span>
+                <span>60%</span>
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 70%;"></div>
@@ -752,7 +794,7 @@
             <div class="skill-item">
               <div class="skill-name">
                 <span>Python</span>
-                <span>70%</span>
+                <span>60%</span>
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 70%;"></div>
@@ -766,6 +808,16 @@
               </div>
               <div class="skill-bar">
                 <div class="skill-level" style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>Product Analytics & Attribution</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 65%;"></div>
               </div>
             </div>
 
@@ -856,6 +908,16 @@
             <div class="skill-item">
               <div class="skill-name">
                 <span>Fast learning & adaptability</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-name">
+                <span>AI Tools & Automation (development workflow optimization)</span>
                 <span>70%</span>
               </div>
               <div class="skill-bar">
